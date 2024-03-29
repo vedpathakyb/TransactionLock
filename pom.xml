@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">	
+	<modelVersion>4.0.0</modelVersion> 	
+	<groupId>com.tlock</groupId>  	
+	<artifactId>TransactionLock</artifactId>  	
+	<packaging>pom</packaging>  	
+	<version>1.0-SNAPSHOT</version>  	
+	<name>TransactionLock</name>  	
+	<url>http://maven.apache.org</url>  	
+	<properties>    		
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>    		
+		<maven.compiler.source>11</maven.compiler.source>    		
+		<maven.compiler.target>11</maven.compiler.target>    	
+	</properties>  	
+	<modules>    		
+		<module>tlock-ear</module>    		
+		<module>tlock-slsb</module>    		
+		<module>tlock-sfsb</module>    	  
+		<module>tlock-web</module>      
+	</modules>  
+</project>
